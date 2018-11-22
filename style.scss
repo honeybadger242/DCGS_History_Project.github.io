@@ -9,16 +9,16 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
-/**************/
-/* BASE RULES */
-/**************/
+  /**************/
+  /* BASE RULES */
+  /**************/
 
-html {
-  font-size: 100%;
+  html {
+    font-size: 100%;
 }
 
 body {
-	background: url("/images/371d30de-7540-4721-b920-9f193fa83a02.png");
+  background: url("http://sf.co.ua/16/07/wallpaper-3d240.jpg");
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -71,7 +71,7 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
@@ -134,12 +134,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -213,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+    font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
@@ -278,26 +278,26 @@ nav {
   background-color: $lightGray;
 }
 table {
-border-collapse: collapse;
-width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 table, th, td {
-border: 3px solid #BB9808;
-background-color:#2F0D04;
+  border: 3px solid #BB9808;
+  background-color:#2F0D04;
 
 }
 
 td {
-vertical-align: middle; 
-padding: 10px;
+  vertical-align: middle; 
+  padding: 10px;
 }	
 
 th {
-color: white;
-background: #233237;
-height:50px;
-vertical-align: middle;
+  color: white;
+  background: #233237;
+  height:50px;
+  vertical-align: middle;
 }
 
 footer {
